@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ken Camarador - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Ken Camarador</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Ken Camarador</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" \ />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Ken Camarador</h1>
+        <p class="section__text__p2">Full Stack Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('https://resume-kencamarador.s3.ca-central-1.amazonaws.com/Resume+-+Ken+April+2023+Draft.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="window.open('https://www.linkedin.com/in/ken-camarador/')"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="window.open('https://github.com/kencamarador/')"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="text-container">
+        <p class="bio">
+            A Full-Stack Developer with a background in AWS Cloud and System Administration. 
+            With my background in IT, I am passionate about leveraging the latest technologies 
+            to design user-centered applications that deliver high-quality results while leveraging 
+            the latest AWS Cloud Technologies. I am constantly learning to enhance my skills and stay 
+            up-to-date with industry trends.
+        </br>
+    </br>
+        When I'm not in front of the computer, you'll often 
+        find me exploring the great outdoors. I'm an avid camper, hiker, 
+        and mountain biker, and I also love to travel and experience 
+        new cultures. 
+        </p>
+      </div>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Work Experience</h3>
+              <p>4+ years as a System Administrator 
+                <br />
+                <br />
+              <p>I have successfully managed the migration of 250+ endpoints and provided technical support to over 100 end-users. 
+                My expertise in Active Directory, O365, Azure AD, and Intune has enabled me to oversee backend infrastructure at various organizations. 
+                I have also created over 200 end-users and maintained positive vendor relationships, demonstrating my strong communication and interpersonal skills. 
+                Overall, I bring a combination of technical expertise and exceptional customer service to any organization.</p>
+              </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education & Credentials</h3>
+              <p>Information Technology | Bachelors Degree - Ryerson University | 2014-2018<br />Software Engineering | Certificate - General Assembly Canada | 2022-2023</p>
+              <img
+              src="./assets/CP.png"
+              alt="Experience icon"
+              class="icon-cert"
+            />
+
+            <img
+            src="./assets/SA.png"
+            alt="Experience icon"
+            class="icon-cert"
+          />
+            </div>
+            
+          </div>
+
+          
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+      
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+
+                <div>
+                  <h3>JavaScript</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Material UI</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PostgreSQL</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Django</h3>
+
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express JS</h3>
+
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MongoDB</h3>
+
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL Queries</h3>
+
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">DevOps</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>AWS</h3>
+                </div>
+
+              </article>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                
+                <div>
+                  <h3>CI/CD</h3>
+
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Github Actions</h3>
+
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Docker</h3>
+
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Finder</h2>
+            <h4>An online Marketplace for Local Tasks & Jobs (MongoDB/ExpressJS/React/NodeJS) </h4>
+
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/kencamarador/finders-mern')"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://finderapplication.herokuapp.com/')"
+              >
+                Live Demo
+              </button>
+              <button
+              id="myBtn"
+              class="btn btn-color-2 project-btn"
+            >
+              More Details
+            </button>
+              
+            </div>
+          </div>
+          
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">FilUp</h2>
+            <h4>Gas Tracker Web App (NodeJS/ExpressJS/MongoDB)</h4>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://fillup-app.herokuapp.com/')"
+              >
+                Live Demo
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/kencamarador/FillUp')"
+              >
+                Github
+              </button>
+              <button
+              id="myBtn3"
+              class="btn btn-color-2 project-btn"
+            >
+              More Details
+            </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-4.png"
+                alt="Project 4"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Notes App</h2>
+            <h4>Notes Manager App</h4>
+            <h4>(Python/Django/PostgreSQL)</h4>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://ga-notesapp.herokuapp.com/')"
+              >
+                Live Demo
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/kencamarador/Notes-Manager')"
+              >
+                Github
+              </button>
+              <button
+              id="myBtn4"
+              class="btn btn-color-2 project-btn"
+            >
+              More Details
+            </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">My Portfolio</h2>
+            <h4>My Portfolio hosted via AWS Services   (HTML/CSS/JavaScript)</h4>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://kencamarador.com'"
+              >
+                Live Demo
+              </button>
+              <button
+              id="myBtn2"
+              class="btn btn-color-2 project-btn"
+            >
+              More Details
+            </button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+
+    <!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div class="modal-text">
+      <ul>
+        <li>Created a MongoDB, Express.JS, React, Node.JS full-stack application with MaterialUI and Normalized.css for a clean
+            and responsive UI/UX design</li>
+        <li>Implemented full CRUD functionality and utilized AWS S3 to host file uploads. Integrated a third-party API, Leaflet, to
+            retrieve location data for postings.</li>
+        <li>Configured JWT authentication along with Validator & Hashing to securely authenticate and authorize user access. </li>
+        <li>Dockerized using Docker Compose, allowing for easy containerization and deployment across multiple environments.</li>
+        <li>Automated deployment to AWS Elastic Beanstalk with GitHub Actions CI/CD. </li>
+     </ul>
+    </div>
+        
+    </div>
+  
+  </div>
+
+  <div id="myModal2" class="modal2">
+
+    <!-- Modal content -->
+    <div class="modal-content2">
+      <span class="close2">&times;</span>
+      <div class="modal-text">
+      <ul>
+        <li>Deployed my professional Portfolio Website using HTML, CSS, and Javascript on AWS S3 static web</li>
+        <li>Implemented AWS CloudFront and OAI to enable secure HTTPS communication with the S3 website URL for enhanced website security</li>
+        <li>Configured AWS Route 53 to set up a custom domain name for the website and pointed it to the CloudFront distribution for a user-friendly and memorable website address </li>
+        <li>Dockerized using Docker Compose, allowing for easy containerization and deployment across multiple environments.</li>
+        <li>Configured AWS CodeCommit, CodeBuild & CodePipeline to automate deployment for CI/CD </li>
+     </ul>
+    </div>
+    </div>
+  
+  </div>
+
+  <div id="myModal3" class="modal3">
+
+    <!-- Modal content -->
+    <div class="modal-content3">
+      <span class="close3">&times;</span>
+      <div class="modal-text">
+      <ul>
+        <li>Designed and developed a robust application using MongoDB, Express.JS, and Node.JS with EJS Templates.</li>
+        <li>Provided users with full functionality through the implementation of full CRUD operations.</li>
+        <li>Implemented a secured authentication by leveraging Google OAuth. </li>
+
+     </ul>
+    </div>
+    </div>
+  
+  </div>
+
+  <div id="myModal4" class="modal4">
+
+    <!-- Modal content -->
+    <div class="modal-content4">
+      <span class="close4">&times;</span>
+      <div class="modal-text">
+      <ul>
+        <li>Collaborated seamlessly with a team member to develop a highly functional full CRUD app that enables efficient note
+            management and easy image importation from AWS S3.</li>
+        <li> Successfully implemented Django Authentication to ensure robust security measures, giving users a seamless and
+            secure login experience.</li>
+     </ul>
+    </div>
+    </div>
+  
+  </div>
+
+
+  
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:ken.camarador@outlook.com">ken.camarador@outlook.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/ken-camarador/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>This website was developed using HTML, CSS and JavaScript. Hosted on AWS and distributed via AWS CloudFront.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
