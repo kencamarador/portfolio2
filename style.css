@@ -257,7 +257,8 @@ section {
 }
 
 .btn-color-1:hover {
-  background: rgb(0, 0, 0);
+  color: black;
+  background: none;
 }
 
 .btn-color-2 {
