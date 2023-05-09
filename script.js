@@ -94,7 +94,7 @@ span5.onclick = function() {
       async function updateCounter() {
         let response = await fetch("https://ysgu6qb3u55zeshxj4owncyssy0szdfu.lambda-url.ca-central-1.on.aws/");
         let data = await response.json();
-        viewCounter.innerHTML = `${data}`
+        viewCounter.innerHTML = `This site has been viewed ${data} times!`;
         console.log(data)
       }
 
