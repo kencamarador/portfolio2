@@ -88,3 +88,14 @@ span5.onclick = function() {
             }
           
       };
+
+
+      const viewCounter = document.querySelector(".counter")
+      async function updateCounter() {
+        let response = await fetch("https://ysgu6qb3u55zeshxj4owncyssy0szdfu.lambda-url.ca-central-1.on.aws/");
+        let data = await response.json();
+        viewCounter.innerHTML = `${data}`
+        console.log(data)
+      }
+
+      updateCounter();
