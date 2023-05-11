@@ -94,7 +94,18 @@ span5.onclick = function() {
       async function updateCounter() {
         let response = await fetch("https://ysgu6qb3u55zeshxj4owncyssy0szdfu.lambda-url.ca-central-1.on.aws/");
         let data = await response.json();
-        viewCounter.innerHTML = `This site has been viewed ${data} times!`;
+        if (data % 100 >= 11 && data % 100 <= 13) {
+          viewCounter.innerHTML = `Welcome ${data}th Viewer!`;
+        } else if (data % 10 === 1) {
+          viewCounter.innerHTML = `Welcome ${data}st Viewer!`;
+        } else if (data % 10 === 2) {
+          viewCounter.innerHTML = `Welcome ${data}nd Viewer!`;
+        } else if (data % 10 === 3) {
+          viewCounter.innerHTML = `Welcome ${data}rd Viewer!`;
+        } else {
+          viewCounter.innerHTML = `Welcome ${data}th Viewer!`;
+        }
+        
         console.log(data)
       }
 
